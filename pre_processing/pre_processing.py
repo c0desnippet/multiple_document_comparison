@@ -1,9 +1,7 @@
 # Import libraries
 import time
 import pandas as pd
-from pathlib import Path
 import google.generativeai as genai
-import json
 import re
 from pymongo import MongoClient
 from pymongo.server_api import ServerApi
