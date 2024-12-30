@@ -23,8 +23,8 @@ with your actual setup. Ensure the collection name matches where you want the da
 uri = ""
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client['ClinicalNotesReviewer']
-collection = db['[dict] processed_reports_new']
-comparison_collection = db['comparison_gemini_table_test_2']
+collection = db['processed_reports']
+comparison_collection = db['comparison_gemini_table_test']
 
 # Adjust the date format in get_reports_by_patient function
 def get_reports_by_patient():
